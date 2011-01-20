@@ -60,6 +60,7 @@ class Area(MPTTModel):
     code = CodeField(max_length=50, prefix='A', default='0', \
                      min_length=3)
     two_letter_iso_country_code= models.CharField(max_length=2, choices=two_letter_country_code_choices, blank=True)
+    two_letter_iso_subdivision_code= models.CharField(max_length=2, blank=True)
     kind = models.ForeignKey('AreaType', blank=True, null=True)
     location = models.ForeignKey(Point, blank=True, null=True)
     parent = models.ForeignKey('self', blank=True, null=True, \
