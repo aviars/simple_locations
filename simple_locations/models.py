@@ -9,7 +9,7 @@ from django.utils.translation import ugettext as _, ugettext_lazy as __
 from code_generator.fields import CodeField
 import mptt
 from mptt.models import MPTTModel
-from trkr.simple_locations.iso3166_2letter import two_letter_country_code_choices
+from iso3166_2letter import two_letter_country_code_choices
 
 try:
     from mptt.models import MPTTModel
