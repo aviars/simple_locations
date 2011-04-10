@@ -1,1 +1,1144 @@
-[{"pk": 1, "model": "simple_locations.areatype", "fields": {"name": "state", "slug": "state"}}, {"pk": 2, "model": "simple_locations.areatype", "fields": {"name": "parish", "slug": "parish"}}, {"pk": 3, "model": "simple_locations.areatype", "fields": {"name": "emirate", "slug": "emirate"}}, {"pk": 4, "model": "simple_locations.areatype", "fields": {"name": "region", "slug": "region"}}, {"pk": 5, "model": "simple_locations.areatype", "fields": {"name": "administrative atoll", "slug": "administrative-atoll"}}, {"pk": 6, "model": "simple_locations.areatype", "fields": {"name": "municipality", "slug": "municipality"}}, {"pk": 7, "model": "simple_locations.areatype", "fields": {"name": "republic", "slug": "republic"}}, {"pk": 8, "model": "simple_locations.areatype", "fields": {"name": "district", "slug": "district"}}, {"pk": 9, "model": "simple_locations.areatype", "fields": {"name": "governorate", "slug": "governorate"}}, {"pk": 10, "model": "simple_locations.areatype", "fields": {"name": "territory", "slug": "territory"}}, {"pk": 11, "model": "simple_locations.areatype", "fields": {"name": "city", "slug": "city"}}, {"pk": 12, "model": "simple_locations.areatype", "fields": {"name": "division", "slug": "division"}}, {"pk": 13, "model": "simple_locations.areatype", "fields": {"name": "special zone", "slug": "special-zone"}}, {"pk": 14, "model": "simple_locations.areatype", "fields": {"name": "prefecture", "slug": "prefecture"}}, {"pk": 15, "model": "simple_locations.areatype", "fields": {"name": "geographical unit", "slug": "geographical-unit"}}, {"pk": 16, "model": "simple_locations.areatype", "fields": {"name": "autonomous-province", "slug": "autonomous-province"}}, {"pk": 17, "model": "simple_locations.areatype", "fields": {"name": "special-district", "slug": "special-district"}}, {"pk": 18, "model": "simple_locations.areatype", "fields": {"name": "special region", "slug": "special-region"}}, {"pk": 19, "model": "simple_locations.areatype", "fields": {"name": "country", "slug": "country"}}, {"pk": 20, "model": "simple_locations.areatype", "fields": {"name": "county", "slug": "county"}}, {"pk": 21, "model": "simple_locations.areatype", "fields": {"name": "subdivision", "slug": "subdivision"}}, {"pk": 22, "model": "simple_locations.areatype", "fields": {"name": "town", "slug": "town"}}, {"pk": 23, "model": "simple_locations.areatype", "fields": {"name": "village", "slug": "village"}}]
+[
+    {
+        "pk": 24, 
+        "model": "simple_locations.areatype", 
+        "fields": {
+            "name": "Local Government area", 
+            "slug": "lga"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "simple_locations.areatype", 
+        "fields": {
+            "name": "state", 
+            "slug": "state"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "simple_locations.areatype", 
+        "fields": {
+            "name": "parish", 
+            "slug": "parish"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "simple_locations.areatype", 
+        "fields": {
+            "name": "emirate", 
+            "slug": "emirate"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "simple_locations.areatype", 
+        "fields": {
+            "name": "region", 
+            "slug": "region"
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "simple_locations.areatype", 
+        "fields": {
+            "name": "administrative atoll", 
+            "slug": "administrative-atoll"
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "simple_locations.areatype", 
+        "fields": {
+            "name": "municipality", 
+            "slug": "municipality"
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "simple_locations.areatype", 
+        "fields": {
+            "name": "republic", 
+            "slug": "republic"
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "simple_locations.areatype", 
+        "fields": {
+            "name": "district", 
+            "slug": "district"
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "simple_locations.areatype", 
+        "fields": {
+            "name": "governorate", 
+            "slug": "governorate"
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "simple_locations.areatype", 
+        "fields": {
+            "name": "territory", 
+            "slug": "territory"
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "simple_locations.areatype", 
+        "fields": {
+            "name": "city", 
+            "slug": "city"
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "simple_locations.areatype", 
+        "fields": {
+            "name": "division", 
+            "slug": "division"
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "simple_locations.areatype", 
+        "fields": {
+            "name": "special zone", 
+            "slug": "special-zone"
+        }
+    }, 
+    {
+        "pk": 14, 
+        "model": "simple_locations.areatype", 
+        "fields": {
+            "name": "prefecture", 
+            "slug": "prefecture"
+        }
+    }, 
+    {
+        "pk": 15, 
+        "model": "simple_locations.areatype", 
+        "fields": {
+            "name": "geographical unit", 
+            "slug": "geographical-unit"
+        }
+    }, 
+    {
+        "pk": 16, 
+        "model": "simple_locations.areatype", 
+        "fields": {
+            "name": "autonomous-province", 
+            "slug": "autonomous-province"
+        }
+    }, 
+    {
+        "pk": 17, 
+        "model": "simple_locations.areatype", 
+        "fields": {
+            "name": "special-district", 
+            "slug": "special-district"
+        }
+    }, 
+    {
+        "pk": 18, 
+        "model": "simple_locations.areatype", 
+        "fields": {
+            "name": "special region", 
+            "slug": "special-region"
+        }
+    }, 
+    {
+        "pk": 19, 
+        "model": "simple_locations.areatype", 
+        "fields": {
+            "name": "country", 
+            "slug": "country"
+        }
+    }, 
+    {
+        "pk": 20, 
+        "model": "simple_locations.areatype", 
+        "fields": {
+            "name": "county", 
+            "slug": "county"
+        }
+    }, 
+    {
+        "pk": 21, 
+        "model": "simple_locations.areatype", 
+        "fields": {
+            "name": "subdivision", 
+            "slug": "subdivision"
+        }
+    }, 
+    {
+        "pk": 22, 
+        "model": "simple_locations.areatype", 
+        "fields": {
+            "name": "town", 
+            "slug": "town"
+        }
+    }, 
+    {
+        "pk": 23, 
+        "model": "simple_locations.areatype", 
+        "fields": {
+            "name": "village", 
+            "slug": "village"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 3, 
+            "kind": 21, 
+            "code": "A002", 
+            "name": "Ashanti",
+            "slug": "ashanti",  
+            "parent": 1, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 2, 
+            "two_letter_iso_subdivision_code": "AH", 
+            "location": null, 
+            "tree_id": 1, 
+            "two_letter_iso_country_code": "GH"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 5, 
+            "kind": 21, 
+            "code": "A003", 
+            "name": "Brong-Ahafo",
+            "slug": "brong-ahafo", 
+            "parent": 1, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 4, 
+            "two_letter_iso_subdivision_code": "BA", 
+            "location": null, 
+            "tree_id": 1, 
+            "two_letter_iso_country_code": "GH"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 7, 
+            "kind": 21, 
+            "code": "A004", 
+            "name": "Central",
+            "slug": "central",  
+            "parent": 1, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 6, 
+            "two_letter_iso_subdivision_code": "CP", 
+            "location": null, 
+            "tree_id": 1, 
+            "two_letter_iso_country_code": "GH"
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 9, 
+            "kind": 21, 
+            "code": "A005", 
+            "name": "Eastern",
+            "slug": "eastern", 
+            "parent": 1, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 8, 
+            "two_letter_iso_subdivision_code": "CP", 
+            "location": null, 
+            "tree_id": 1, 
+            "two_letter_iso_country_code": "GH"
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 11, 
+            "kind": 21, 
+            "code": "A006", 
+            "name": "Greater Accra",
+            "slug": "greater-accra",  
+            "parent": 1, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 10, 
+            "two_letter_iso_subdivision_code": "AA", 
+            "location": null, 
+            "tree_id": 1, 
+            "two_letter_iso_country_code": "GH"
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 13, 
+            "kind": 21, 
+            "code": "A007", 
+            "name": "Northern",
+            "slug": "northern", 
+            "parent": 1, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 12, 
+            "two_letter_iso_subdivision_code": "NP", 
+            "location": null, 
+            "tree_id": 1, 
+            "two_letter_iso_country_code": "GH"
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 15, 
+            "kind": 21, 
+            "code": "A008", 
+            "name": "Upper East",
+            "slug": "upper-east", 
+            "parent": 1, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 14, 
+            "two_letter_iso_subdivision_code": "UE", 
+            "location": null, 
+            "tree_id": 1, 
+            "two_letter_iso_country_code": "GH"
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 17, 
+            "kind": 21, 
+            "code": "A009", 
+            "name": "Upper West",
+            "slug": "upper-west", 
+            "parent": 1, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 16, 
+            "two_letter_iso_subdivision_code": "UW", 
+            "location": null, 
+            "tree_id": 1, 
+            "two_letter_iso_country_code": "GH"
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 19, 
+            "kind": 21, 
+            "code": "A010", 
+            "name": "Volta", 
+            "slug": "volta",
+            "parent": 1, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 18, 
+            "two_letter_iso_subdivision_code": "TV", 
+            "location": null, 
+            "tree_id": 1, 
+            "two_letter_iso_country_code": "GH"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 22, 
+            "kind": 19, 
+            "code": "A001", 
+            "name": "Ghana",
+            "slug": "ghana", 
+            "parent": null, 
+            "level": 0, 
+            "feature_id": "", 
+            "lft": 1, 
+            "two_letter_iso_subdivision_code": "", 
+            "location": null, 
+            "tree_id": 1, 
+            "two_letter_iso_country_code": "GH"
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 21, 
+            "kind": 21, 
+            "code": "A011", 
+            "name": "Western", 
+            "slug": "western",
+            "parent": 1, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 20, 
+            "two_letter_iso_subdivision_code": "WP", 
+            "location": null, 
+            "tree_id": 1, 
+            "two_letter_iso_country_code": "GH"
+        }
+    }, 
+    {
+        "pk": 45, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 67, 
+            "kind": 21, 
+            "code": "A045", 
+            "name": "Rivers",
+            "slug": "rivers", 
+            "parent": 12, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 66, 
+            "two_letter_iso_subdivision_code": "RI", 
+            "location": null, 
+            "tree_id": 2, 
+            "two_letter_iso_country_code": "NG"
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 5, 
+            "kind": 21, 
+            "code": "A013", 
+            "name": "Abuja Federal Capital Territory",
+            "slug": "abuja-federal-capital-territory", 
+            "parent": 12, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 4, 
+            "two_letter_iso_subdivision_code": "FC", 
+            "location": null, 
+            "tree_id": 2, 
+            "two_letter_iso_country_code": "NG"
+        }
+    }, 
+    {
+        "pk": 14, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 3, 
+            "kind": 21, 
+            "code": "A014", 
+            "name": "Abia",
+            "slug": "abia", 
+            "parent": 12, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 2, 
+            "two_letter_iso_subdivision_code": "AB", 
+            "location": null, 
+            "tree_id": 2, 
+            "two_letter_iso_country_code": "NG"
+        }
+    }, 
+    {
+        "pk": 15, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 7, 
+            "kind": 21, 
+            "code": "A015", 
+            "name": "Adamawa",
+            "slug": "adamawa",  
+            "parent": 12, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 6, 
+            "two_letter_iso_subdivision_code": "AD", 
+            "location": null, 
+            "tree_id": 2, 
+            "two_letter_iso_country_code": "NG"
+        }
+    }, 
+    {
+        "pk": 16, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 9, 
+            "kind": 21, 
+            "code": "A016", 
+            "name": "Akwa Ibom",
+            "slug": "akwa-ibom",  
+            "parent": 12, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 8, 
+            "two_letter_iso_subdivision_code": "AK", 
+            "location": null, 
+            "tree_id": 2, 
+            "two_letter_iso_country_code": "NG"
+        }
+    }, 
+    {
+        "pk": 17, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 11, 
+            "kind": 21, 
+            "code": "A017", 
+            "name": "Anambra",
+            "slug": "anambra",  
+            "parent": 12, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 10, 
+            "two_letter_iso_subdivision_code": "AN", 
+            "location": null, 
+            "tree_id": 2, 
+            "two_letter_iso_country_code": "NG"
+        }
+    }, 
+    {
+        "pk": 18, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 13, 
+            "kind": 21, 
+            "code": "A018", 
+            "name": "Bauchi",
+            "slug": "bauchi",  
+            "parent": 12, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 12, 
+            "two_letter_iso_subdivision_code": "BA", 
+            "location": null, 
+            "tree_id": 2, 
+            "two_letter_iso_country_code": "NG"
+        }
+    }, 
+    {
+        "pk": 19, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 15, 
+            "kind": 21, 
+            "code": "A019", 
+            "name": "Bayelsa",
+            "slug": "bayelsa",  
+            "parent": 12, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 14, 
+            "two_letter_iso_subdivision_code": "BY", 
+            "location": null, 
+            "tree_id": 2, 
+            "two_letter_iso_country_code": "NG"
+        }
+    }, 
+    {
+        "pk": 20, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 17, 
+            "kind": 21, 
+            "code": "A020", 
+            "name": "Benue",
+            "slug": "benue",  
+            "parent": 12, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 16, 
+            "two_letter_iso_subdivision_code": "BE", 
+            "location": null, 
+            "tree_id": 2, 
+            "two_letter_iso_country_code": "NG"
+        }
+    }, 
+    {
+        "pk": 21, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 19, 
+            "kind": 21, 
+            "code": "A021", 
+            "name": "Borno",
+            "slug": "borno",  
+            "parent": 12, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 18, 
+            "two_letter_iso_subdivision_code": "BO", 
+            "location": null, 
+            "tree_id": 2, 
+            "two_letter_iso_country_code": "NG"
+        }
+    }, 
+    {
+        "pk": 22, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 21, 
+            "kind": 21, 
+            "code": "A022", 
+            "name": "Cross River",
+            "slug": "cross-river",  
+            "parent": 12, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 20, 
+            "two_letter_iso_subdivision_code": "CR", 
+            "location": null, 
+            "tree_id": 2, 
+            "two_letter_iso_country_code": "NG"
+        }
+    }, 
+    {
+        "pk": 23, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 23, 
+            "kind": 21, 
+            "code": "A023", 
+            "name": "Delta",
+            "slug": "delta",  
+            "parent": 12, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 22, 
+            "two_letter_iso_subdivision_code": "DE", 
+            "location": null, 
+            "tree_id": 2, 
+            "two_letter_iso_country_code": "NG"
+        }
+    }, 
+    {
+        "pk": 24, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 25, 
+            "kind": 21, 
+            "code": "A024", 
+            "name": "Ebonyi",
+            "slug": "ebonyi",  
+            "parent": 12, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 24, 
+            "two_letter_iso_subdivision_code": "EB", 
+            "location": null, 
+            "tree_id": 2, 
+            "two_letter_iso_country_code": "NG"
+        }
+    }, 
+    {
+        "pk": 25, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 27, 
+            "kind": 21, 
+            "code": "A025", 
+            "name": "Edo",
+            "slug": "edo",  
+            "parent": 12, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 26, 
+            "two_letter_iso_subdivision_code": "ED", 
+            "location": null, 
+            "tree_id": 2, 
+            "two_letter_iso_country_code": "NG"
+        }
+    }, 
+    {
+        "pk": 50, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 38, 
+            "kind": 24, 
+            "code": "A050", 
+            "name": "Miga",
+            "slug": "miga",  
+            "parent": 30, 
+            "level": 2, 
+            "feature_id": "", 
+            "lft": 37, 
+            "two_letter_iso_subdivision_code": "JI", 
+            "location": null, 
+            "tree_id": 2, 
+            "two_letter_iso_country_code": "NG"
+        }
+    }, 
+    {
+        "pk": 26, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 29, 
+            "kind": 21, 
+            "code": "A026", 
+            "name": "Ekiti",
+            "slug": "ekiti",  
+            "parent": 12, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 28, 
+            "two_letter_iso_subdivision_code": "EK", 
+            "location": null, 
+            "tree_id": 2, 
+            "two_letter_iso_country_code": "NG"
+        }
+    }, 
+    {
+        "pk": 27, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 31, 
+            "kind": 21, 
+            "code": "A027", 
+            "name": "Enugu",
+            "slug": "enugu",  
+            "parent": 12, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 30, 
+            "two_letter_iso_subdivision_code": "EN", 
+            "location": null, 
+            "tree_id": 2, 
+            "two_letter_iso_country_code": "NG"
+        }
+    }, 
+    {
+        "pk": 28, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 33, 
+            "kind": 21, 
+            "code": "A028", 
+            "name": "Gombe",
+            "slug": "gombe",  
+            "parent": 12, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 32, 
+            "two_letter_iso_subdivision_code": "GO", 
+            "location": null, 
+            "tree_id": 2, 
+            "two_letter_iso_country_code": "NG"
+        }
+    }, 
+    {
+        "pk": 29, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 35, 
+            "kind": 21, 
+            "code": "A029", 
+            "name": "Imo",
+            "slug": "imo",  
+            "parent": 12, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 34, 
+            "two_letter_iso_subdivision_code": "IM", 
+            "location": null, 
+            "tree_id": 2, 
+            "two_letter_iso_country_code": "NG"
+        }
+    }, 
+    {
+        "pk": 30, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 37, 
+            "kind": 21, 
+            "code": "A030", 
+            "name": "Jigawa",
+            "slug": "jigawa",  
+            "parent": 12, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 36, 
+            "two_letter_iso_subdivision_code": "JI", 
+            "location": null, 
+            "tree_id": 2, 
+            "two_letter_iso_country_code": "NG"
+        }
+    }, 
+    {
+        "pk": 31, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 39, 
+            "kind": 21, 
+            "code": "A031", 
+            "name": "Kaduna",
+            "slug": "Kaduna",  
+            "parent": 12, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 38, 
+            "two_letter_iso_subdivision_code": "KD", 
+            "location": null, 
+            "tree_id": 2, 
+            "two_letter_iso_country_code": "NG"
+        }
+    }, 
+    {
+        "pk": 32, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 41, 
+            "kind": 21, 
+            "code": "A032", 
+            "name": "Kano",
+            "slug": "kano",  
+            "parent": 12, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 40, 
+            "two_letter_iso_subdivision_code": "KN", 
+            "location": null, 
+            "tree_id": 2, 
+            "two_letter_iso_country_code": "NG"
+        }
+    }, 
+    {
+        "pk": 33, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 43, 
+            "kind": 21, 
+            "code": "A033", 
+            "name": "Katsina",
+            "slug": "katsina",  
+            "parent": 12, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 42, 
+            "two_letter_iso_subdivision_code": "KT", 
+            "location": null, 
+            "tree_id": 2, 
+            "two_letter_iso_country_code": "NG"
+        }
+    }, 
+    {
+        "pk": 34, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 45, 
+            "kind": 21, 
+            "code": "A034", 
+            "name": "Kebbi",
+            "slug": "kebbi",  
+            "parent": 12, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 44, 
+            "two_letter_iso_subdivision_code": "KE", 
+            "location": null, 
+            "tree_id": 2, 
+            "two_letter_iso_country_code": "NG"
+        }
+    }, 
+    {
+        "pk": 35, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 47, 
+            "kind": 21, 
+            "code": "A035", 
+            "name": "Kogi",
+            "slug": "kogi", 
+            "parent": 12, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 46, 
+            "two_letter_iso_subdivision_code": "KO", 
+            "location": null, 
+            "tree_id": 2, 
+            "two_letter_iso_country_code": "NG"
+        }
+    }, 
+    {
+        "pk": 36, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 49, 
+            "kind": 21, 
+            "code": "A036", 
+            "name": "Kwara",
+            "slug": "kwara",  
+            "parent": 12, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 48, 
+            "two_letter_iso_subdivision_code": "KW", 
+            "location": null, 
+            "tree_id": 2, 
+            "two_letter_iso_country_code": "NG"
+        }
+    }, 
+    {
+        "pk": 37, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 51, 
+            "kind": 21, 
+            "code": "A037", 
+            "name": "Lagos",
+            "slug": "lagos",  
+            "parent": 12, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 50, 
+            "two_letter_iso_subdivision_code": "LA", 
+            "location": null, 
+            "tree_id": 2, 
+            "two_letter_iso_country_code": "NG"
+        }
+    }, 
+    {
+        "pk": 38, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 53, 
+            "kind": 21, 
+            "code": "A038", 
+            "name": "Nassarawa",
+            "slug": "nassarawa",  
+            "parent": 12, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 52, 
+            "two_letter_iso_subdivision_code": "NA", 
+            "location": null, 
+            "tree_id": 2, 
+            "two_letter_iso_country_code": "NG"
+        }
+    }, 
+    {
+        "pk": 39, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 55, 
+            "kind": 21, 
+            "code": "A039", 
+            "name": "Niger",
+            "slug": "niger",  
+            "parent": 12, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 54, 
+            "two_letter_iso_subdivision_code": "NI", 
+            "location": null, 
+            "tree_id": 2, 
+            "two_letter_iso_country_code": "NG"
+        }
+    }, 
+    {
+        "pk": 40, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 57, 
+            "kind": 21, 
+            "code": "A040", 
+            "name": "Ogun",
+            "slug": "ogun",  
+            "parent": 12, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 56, 
+            "two_letter_iso_subdivision_code": "OG", 
+            "location": null, 
+            "tree_id": 2, 
+            "two_letter_iso_country_code": "NG"
+        }
+    }, 
+    {
+        "pk": 41, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 59, 
+            "kind": 21, 
+            "code": "A041", 
+            "name": "Ondo",
+            "slug": "ondo",  
+            "parent": 12, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 58, 
+            "two_letter_iso_subdivision_code": "ON", 
+            "location": null, 
+            "tree_id": 2, 
+            "two_letter_iso_country_code": "NG"
+        }
+    }, 
+    {
+        "pk": 42, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 61, 
+            "kind": 21, 
+            "code": "A042", 
+            "name": "Osun",
+            "slug": "osun",  
+            "parent": 12, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 60, 
+            "two_letter_iso_subdivision_code": "OS", 
+            "location": null, 
+            "tree_id": 2, 
+            "two_letter_iso_country_code": "NG"
+        }
+    }, 
+    {
+        "pk": 43, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 63, 
+            "kind": 21, 
+            "code": "A043", 
+            "name": "Oyo",
+            "slug": "oyo",  
+            "parent": 12, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 62, 
+            "two_letter_iso_subdivision_code": "OY", 
+            "location": null, 
+            "tree_id": 2, 
+            "two_letter_iso_country_code": "NG"
+        }
+    }, 
+    {
+        "pk": 44, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 65, 
+            "kind": 21, 
+            "code": "A044", 
+            "name": "Plateau",
+            "slug": "plateau",  
+            "parent": 12, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 64, 
+            "two_letter_iso_subdivision_code": "PL", 
+            "location": null, 
+            "tree_id": 2, 
+            "two_letter_iso_country_code": "NG"
+        }
+    }, 
+    {
+        "pk": 46, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 69, 
+            "kind": 21, 
+            "code": "A046", 
+            "name": "Sokoto",
+            "slug": "sokoto",  
+            "parent": 12, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 68, 
+            "two_letter_iso_subdivision_code": "SO", 
+            "location": null, 
+            "tree_id": 2, 
+            "two_letter_iso_country_code": "NG"
+        }
+    }, 
+    {
+        "pk": 47, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 71, 
+            "kind": 21, 
+            "code": "A047", 
+            "name": "Taraba",
+            "slug": "taraba",  
+            "parent": 12, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 70, 
+            "two_letter_iso_subdivision_code": "TA", 
+            "location": null, 
+            "tree_id": 2, 
+            "two_letter_iso_country_code": "NG"
+        }
+    }, 
+    {
+        "pk": 48, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 73, 
+            "kind": 21, 
+            "code": "A048", 
+            "name": "Yobe",
+            "slug": "yobe",  
+            "parent": 12, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 72, 
+            "two_letter_iso_subdivision_code": "YO", 
+            "location": null, 
+            "tree_id": 2, 
+            "two_letter_iso_country_code": "NG"
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 76, 
+            "kind": 19, 
+            "code": "A012", 
+            "name": "Nigeria",
+            "slug": "nigeria",  
+            "parent": null, 
+            "level": 0, 
+            "feature_id": "", 
+            "lft": 1, 
+            "two_letter_iso_subdivision_code": "", 
+            "location": null, 
+            "tree_id": 2, 
+            "two_letter_iso_country_code": "NG"
+        }
+    }, 
+    {
+        "pk": 49, 
+        "model": "simple_locations.area", 
+        "fields": {
+            "rght": 75, 
+            "kind": 21, 
+            "code": "A049", 
+            "name": "Zamfara",
+            "slug": "zamfara",  
+            "parent": 12, 
+            "level": 1, 
+            "feature_id": "", 
+            "lft": 74, 
+            "two_letter_iso_subdivision_code": "ZA", 
+            "location": null, 
+            "tree_id": 2, 
+            "two_letter_iso_country_code": "NG"
+        }
+    }
+]
