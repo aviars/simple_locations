@@ -1,3 +1,4 @@
+import slugify
 
 two_letter_country_code_choices=(
 ("AF", "AFGHANISTAN"),
@@ -238,5 +239,15 @@ two_letter_country_code_choices=(
 ("ZR", "ZAIRE"),
 ("ZM", "ZAMBIA"),
 ("ZW", "ZIMBABWE"),
-
 )
+
+two_letter_country_code_dict=dict(two_letter_country_code_choices)
+
+country_list=[]
+for k,v in two_letter_country_code_dict.items():
+
+    country_slugs_dict={"country_slug":slugify.slugify(unicode(v)),
+                        "country_name":v.title(),
+                        "country_code":k
+                           }
+    country_list.append(country_slugs_dict)

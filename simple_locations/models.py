@@ -9,7 +9,6 @@ from django.utils.translation import ugettext as _, ugettext_lazy as __
 from code_generator.fields import CodeField
 import mptt
 from mptt.models import MPTTModel
-from georegistry.simple_locations.iso3166_2letter import two_letter_country_code_choices
 from iso3166_2letter import two_letter_country_code_choices
 
 try:
@@ -65,7 +64,9 @@ class Area(MPTTModel):
                                                   choices=two_letter_country_code_choices,
                                                   blank=True)
     two_letter_iso_subdivision_code= models.CharField(max_length=2, blank=True)
-    kind = models.ForeignKey('AreaType', blank=True, null=True)
+    kind = models.ForeignKey('AreaType', related_name='kind')
+    area_type_loc_name = models.ForeignKey('AreaType', blank=True, \
+                                       null=True, related_name='area_type_loc_name')
     feature_id= models.CharField(max_length=50, blank=True)
     location = models.ForeignKey(Point, blank=True, null=True)
     parent = models.ForeignKey('self', blank=True, null=True, \
